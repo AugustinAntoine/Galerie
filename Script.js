@@ -24,7 +24,7 @@ function afficher(json){
 				<div class="card">
 					<div class="card-image">
 						<figure class="image is-4by3">
-							<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+							<img src="" alt="Placeholder image"/>
 						</figure>
 					</div>
 					<div class="card-content">
@@ -55,38 +55,10 @@ function afficher(json){
 	html;
 }
 
-const json = [
-	{
-		name: "Image 1",
-		created_at: "2020-09-19T10:05:12Z",
-		updated_at: "2020-10-09T12:09:56Z",
-	},
-	{
-		name: "Image 2",
-		created_at: "2014-06-10T11:41:39Z",
-		updated_at: "2014-06-10T11:43:11Z",
-	},
-	{
-		name: "Image 3",
-		created_at: "2014-06-10T11:41:39Z",
-		updated_at: "2018-12-11T14:07:57Z",
-		description: "AngularJS directive for AsciiDoctor",
-	},
-	{
-		name: "Image 4",
-		description: "AngularJS directive for AsciiDoctor",
-		created_at: "2014-06-10T11:41:39Z",
-		updated_at: "2014-11-25T16:57:27Z",
-	},
-	{
-		name: "Image 5",
-		description: "CLI tool for Angular",
-		created_at: "2018-10-08T10:58:58Z",
-		updated_at: "2018-10-25T14:58:47Z",
-	}
-];
 document.addEventListener("DOMContentLoaded",
-function() {
-	afficher(json)
-});
+fetch('GalerieRepos')
+	.then(function() {
+		afficher(json)
+	})
+);
 
