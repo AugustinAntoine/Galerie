@@ -5,11 +5,10 @@
   "short_name": "Gal",
   "icons": [{
     "src": "icon/icons8-biere.png",
-    "sizes": "64x64",
-    "type": "image/webp"
+    "sizes": "72x72"
   },{
     "src": "icon/icons8-boutchamp.png",
-    "sizes": "64x64"
+    "sizes": "512x512"
   }],
   "scope": "/Galerie/",
   "start_url": "/Galerie/index.html",
