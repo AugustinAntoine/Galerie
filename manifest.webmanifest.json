@@ -5,15 +5,50 @@
   "short_name": "Gal",
   "icons": [{
     "src": "icon/icons8-biere.png",
-    "sizes": "72x72"
-  },{
+    "sizes": "72x72",
+	"type": "image/png",
+	"purpose": "maskable"
+  },
+  {
     "src": "icon/icons8-boutchamp.png",
-    "sizes": "512x512"
-  }],
-  "scope": "/Galerie/",
-  "start_url": "/Galerie/index.html",
-  "display": "fullscreen",
-  "orientation": "landscape",
-  "theme_color": "aliceblue",
-  "background_color": "red"
+    "sizes": "95x95",
+	"type": "image/png",
+	"purpose": "maskable"
+  },
+  {
+	"src": "icon/icons8-boutvin.png",
+    "sizes": "144x144",
+	"type": "image/png",
+	"purpose": "maskable"
+  },
+  {
+	"src": "icon/icons8-champ.png",
+    "sizes": "180x180",
+	"type": "image/png",
+	"purpose": "maskable"
+  },
+  {
+	"src": "icon/icons8-cocktail.png",
+    "sizes": "215x215",
+	"type": "image/png",
+	"purpose": "maskable"
+  },
+  {
+	"src": "icon/icons8-cococktail.png",
+    "sizes": "350x350",
+	"type": "image/png",
+	"purpose": "maskable"
+  },
+  {
+	"src": "icon/icons8-tonneau.png",
+    "sizes": "450x450",
+	"type": "image/png",
+	"purpose": "maskable"
+  },
+  {
+	"src": "icon/icons8-vin.png",
+    "sizes": "512x512",
+	"type": "image/png",
+	"purpose": "maskable"
+  }]
 }
