@@ -1,0 +1,20 @@
+{
+  "lang": "fr",
+  "name": "Galerie",
+  "description": "La meilleure galerie de toutes les galeries qui galèrent",
+  "short_name": "Gal",
+  "icons": [{
+    "src": "icon/icons8-biere.png",
+    "sizes": "64x64",
+    "type": "image/webp"
+  },{
+    "src": "icon/icons8-boutchamp.png",
+    "sizes": "64x64"
+  }],
+  "scope": "/Galerie/",
+  "start_url": "/Galerie/index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "aliceblue",
+  "background_color": "red"
+}
