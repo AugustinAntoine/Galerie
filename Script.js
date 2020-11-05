@@ -61,4 +61,3 @@ fetch('GalerieRepos/tableau.json')
 		afficher(json)
 	})
 );
-
