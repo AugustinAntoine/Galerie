@@ -57,7 +57,7 @@ function afficher(json){
 
 document.addEventListener("DOMContentLoaded",
 fetch('GalerieRepos/tableau.json')
-	.then(function() {
+	.then(function(json) {
 		afficher(json)
 	})
 );
