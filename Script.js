@@ -74,8 +74,7 @@ const json = [
 	},
 	{
 		name: "Image 4",
-		description: "AngularJS directive for
-		AsciiDoctor",
+		description: "AngularJS directive for AsciiDoctor",
 		created_at: "2014-06-10T11:41:39Z",
 		updated_at: "2014-11-25T16:57:27Z",
 	},
