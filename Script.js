@@ -24,7 +24,7 @@ function afficher(json){
 				<div class="card">
 					<div class="card-image">
 						<figure class="image is-4by3">
-							<img src="" alt="Placeholder image"/>
+							<img src="${repo.image}" alt="Placeholder image"/>
 						</figure>
 					</div>
 					<div class="card-content">
