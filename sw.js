@@ -12,5 +12,5 @@ self.addEventListener('message',event=>
 // Si on reconnait un fetch, on écrit "PWA!!!!"
 self.addEventListener('fetch',event=>
 {    
-    event.RespondWith(newResponse('PWA!!!!'));
+    console.log(newResponse('PWA!!!!'));
 });
