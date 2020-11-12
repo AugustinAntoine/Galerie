@@ -58,5 +58,5 @@ function afficher(json){
 document.addEventListener("DOMContentLoaded", function() {
 	fetch("https://keen-wing-4f2746.netlify.app/images.json")
 		.then(response => response.json())
-		.then(json => generateUI(json)
+		.then(json => generateUI(json));
 });
