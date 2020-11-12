@@ -12,7 +12,8 @@ function afficher(json){
 	const repos = json.map(j => ({
 		name: j.name,
 		description: j.description || "",
-		updated_at: j.updated_at
+		updated_at: j.updated_at,
+		image: j.image
 		}));
 		const selections = reduireArray(repos, 3);
 		let html = "";
