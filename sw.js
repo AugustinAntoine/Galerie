@@ -16,7 +16,7 @@ self.addEventListener("fetch", event => {console.log(event.request.url);});
 self.addEventListener("fetch", (event) => 
 {
 	const url = event.request.url;
-	if (url.indexOf("https://monNomDeDomaine/images.json") ===0) 
+	if (url.indexOf("https://trusting-swirles-3a325e.netlify.app/GalerieRepos/tableau.json") ===0) 
 	{
 		event.respondWith(fetch(event.request)
 		.then((response) => 
