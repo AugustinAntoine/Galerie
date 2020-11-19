@@ -26,22 +26,29 @@ self.addEventListener("fetch", (event) =>
 		event.respondWith(fetch(event.request)
 		.then((response) => 
 		{
-			if (response.statusText !== "OK") 
+			if (response.status === 200) 
 			{
-				console.error("Service Worker","Error when fetching",event.request.url);
+				console.info("Formatting data");
+				return response.json().then((json) => 
+				{
+					const formattedResponse = json.map((j) => (
+					{
+						name: j.name,
+						description: j.description || "",
+						updated_at: j.updated_at,
+						created_at: j.created_at
+					}));
+					return new Response(JSON.stringify(formattedResponse));
+				});
+				
+			}else{
+				console.error(
+					"Service Worker",
+					"Error when fetching",
+					event.request.url
+				);
 				return response;
 			}
-			console.info("Formatting data");
-			return response.json()
-			.then((json) => 
-			{
-				const formattedResponse = json.map((j) => (
-				{
-					name: j.name,description: j.description || "",updated_at: j.updated_at,
-				})
-				);
-				return new Response(JSON.stringify(formattedResponse));
-			});
 		}));
 	}
 });
