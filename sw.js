@@ -12,9 +12,9 @@ self.addEventListener('message',event=>
 });
 
 // Ecoute de tous les évènements fetch et récupération de chaque URL
-self.addEventListener("fetch", event => {console.log(event.request.url);});
+//self.addEventListener("fetch", event => {console.log(event.request.url);});
 
-// Ecoute de tous les évènements fetch et récupération de l’URLpermettant l’obtention de images.jsonpuis reformatage de images.json
+// Ecoute de tous les évènements fetch et récupération de l’URL permettant l’obtention de images.jsonpuis reformatage de images.json
 self.addEventListener("fetch", (event) => 
 {
 	console.log("On a trouvé un fetch");
