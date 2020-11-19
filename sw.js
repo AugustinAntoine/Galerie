@@ -1,4 +1,4 @@
-console.log("test s'il est interprété OK!");
+// console.log("test s'il est interprété OK!");
 
 self.addEventListener('message',event=>
 {

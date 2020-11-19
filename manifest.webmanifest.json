@@ -3,6 +3,8 @@
   "name": "Galerie",
   "description": "La meilleure galerie de toutes les galeries qui galèrent",
   "short_name": "Gal",
+  "display": "minimal-ui",
+  "start_url": "/",
   "icons": [{
     "src": "icon/icons8-biere.png",
     "sizes": "72x72",
@@ -11,37 +13,37 @@
   },
   {
     "src": "icon/icons8-boutchamp.png",
-    "sizes": "95x95",
+    "sizes": "96x96",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
 	"src": "icon/icons8-boutvin.png",
-    "sizes": "144x144",
+    "sizes": "128x128",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
 	"src": "icon/icons8-champ.png",
-    "sizes": "180x180",
+    "sizes": "144x144",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
 	"src": "icon/icons8-cocktail.png",
-    "sizes": "215x215",
+    "sizes": "152x152",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
 	"src": "icon/icons8-cococktail.png",
-    "sizes": "350x350",
+    "sizes": "192x192",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
 	"src": "icon/icons8-tonneau.png",
-    "sizes": "450x450",
+    "sizes": "384x384",
 	"type": "image/png",
 	"purpose": "maskable"
   },
