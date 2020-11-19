@@ -15,9 +15,11 @@ self.addEventListener("fetch", event => {console.log(event.request.url);});
 // Ecoute de tous les évènements fetch et récupération de l’URLpermettant l’obtention de images.jsonpuis reformatage de images.json
 self.addEventListener("fetch", (event) => 
 {
+	console.info("On a trouvé un fetch");
 	const url = event.request.url;
 	if (url.indexOf("https://trusting-swirles-3a325e.netlify.app/GalerieRepos/tableau.json") ===0) 
 	{
+		console.info("Le fetch est sur une requête vers notre tableau.json");
 		event.respondWith(fetch(event.request)
 		.then((response) => 
 		{
