@@ -9,15 +9,9 @@ function reduireArray(array, size) {
 const dateTimeFormat = Intl.DateTimeFormat("fr");
 
 function afficher(json){
-	const repos = json.map(j => ({
-		name: j.name,
-		description: j.description || "",
-		updated_at: j.updated_at,
-		image: j.image
-		}));
-		const selections = reduireArray(repos, 3);
-		let html = "";
-		selections.forEach(selection => {
+	const selections = reduireArray(json, 3);
+	let html = "";
+	selections.forEach(selection => {
 		html += '<div class="columns">';
 		selection.forEach(repo => {
 			html += `
