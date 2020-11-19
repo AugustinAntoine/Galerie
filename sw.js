@@ -28,6 +28,7 @@ self.addEventListener("fetch", (event) =>
 		event.respondWith(fetch(event.request)
 		.then((response) => 
 		{
+			console.log(response.status);
 			if (response.status === 200) 
 			{
 				console.info("Formatting data");
