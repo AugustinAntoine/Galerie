@@ -57,7 +57,7 @@ function afficher(json){
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-	fetch("https://trusting-swirles-3a325e.netlify.app/tableau.json")
+	fetch("/GalerieRepos/tableau.json")
 		.then(response => response.json())
 		.then(json => afficher(json));
 });

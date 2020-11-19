@@ -22,7 +22,7 @@ self.addEventListener("fetch", (event) =>
 	console.log("L'url c'est ça : " + url);
 	console.log("L'url.indexOf c'est ça : " + url.indexOf("https://trusting-swirles-3a325e.netlify.app/GalerieRepos/tableau.json"));
 	
-	if (url.indexOf("https://trusting-swirles-3a325e.netlify.app/tableau.json") ===0) 
+	if (url.indexOf("https://trusting-swirles-3a325e.netlify.app/GalerieRepos/tableau.json") ===0) 
 	{
 		console.log("Le fetch est sur une requête vers notre tableau.json");
 		event.respondWith(fetch(event.request)
