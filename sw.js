@@ -1,3 +1,5 @@
+console.log("test s'il est interprété OK!");
+
 self.addEventListener('message',event=>
 {
     this.clients.matchAll()
