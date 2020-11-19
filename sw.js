@@ -19,6 +19,7 @@ self.addEventListener("fetch", (event) =>
 {
 	console.log("On a trouvé un fetch");
 	const url = event.request.url;
+	console.log(url);
 	if (url.indexOf("https://5fb638f898befc0007721419--trusting-swirles-3a325e.netlify.app/GalerieRepos/tableau.json") ===0) 
 	{
 		console.log("Le fetch est sur une requête vers notre tableau.json");
