@@ -44,7 +44,8 @@ self.addEventListener("fetch", (event) =>
 						name: j.name,
 						description: j.description || "",
 						updated_at: j.updated_at,
-						created_at: j.created_at
+						created_at: j.created_at,
+						image: j.image
 					}));
 					return new Response(JSON.stringify(formattedResponse));
 				});
