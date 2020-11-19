@@ -6,49 +6,49 @@
   "display": "minimal-ui",
   "start_url": "/",
   "icons": [{
-    "src": "icon/icons8-biere.png",
+    "src": "icon/bonhomme-de-neige.svg",
     "sizes": "72x72",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
-    "src": "icon/icons8-boutchamp.png",
+    "src": "icon/cadeau.svg",
     "sizes": "96x96",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
-	"src": "icon/icons8-boutvin.png",
+	"src": "icon/du-gui.svg",
     "sizes": "128x128",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
-	"src": "icon/icons8-champ.png",
+	"src": "icon/guirlande-de-noel.svg",
     "sizes": "144x144",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
-	"src": "icon/icons8-cocktail.png",
+	"src": "icon/guirlande-de-noel_copie.svg",
     "sizes": "152x152",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
-	"src": "icon/icons8-cococktail.png",
+	"src": "icon/pere-noel.svg",
     "sizes": "192x192",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
-	"src": "icon/icons8-tonneau.png",
+	"src": "icon/flocon-de-neige.svg",
     "sizes": "384x384",
 	"type": "image/png",
 	"purpose": "maskable"
   },
   {
-	"src": "icon/icons8-vin.png",
+	"src": "icon/eglise.svg",
     "sizes": "512x512",
 	"type": "image/png",
 	"purpose": "maskable"
